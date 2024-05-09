@@ -53,4 +53,3 @@ if __name__ == '__main__':
     logger.send_log("Starting new game", "info")
     logger.send_log("Invalid move attempted", "warning")
     logger.send_log("Database connection failed", "error")
-    logger.close()

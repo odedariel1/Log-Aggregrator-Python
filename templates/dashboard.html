@@ -6,8 +6,9 @@
 </head>
 <body style=" text-align:center ">
 <h1>Logs information </h1>
+<br>
 {% for item in log_counts %}
-    <table style="display:inline-block">
+    <table border="1px solid black" style="display:inline-block">
         <h2>Log {{ item }} (Total: {{ log_counts[item] }})</h2>
       <tr>
         <th>Log Status</th>
@@ -15,9 +16,9 @@
         <th>Date</th>
       </tr>
       <tr>
-        <td>log info</td>
+        <td>Log info</td>
         <td width="700px">i love shnitzels with katchup</td>
-        <td>2.10.2019 10:00</td>
+        <td>2.10.2019 10:00:00</td>
       </tr>
 
     </table>

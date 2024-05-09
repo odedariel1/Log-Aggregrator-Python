@@ -1,26 +1,3 @@
-2024-05-09T11:51:11.755840-Database connection failed
-2024-05-09T11:51:59.766020-Database connection failed
-2024-05-09T11:57:58.271793-Database connection failed
-2024-05-09T11:57:59.094383-Database connection failed
-2024-05-09T12:18:46.259758-Database connection failed
-2024-05-09T12:21:20.258079-Database connection failed
-2024-05-09T12:21:29.734400-Database connection failed
-2024-05-09T12:21:30.627078-Database connection failed
-2024-05-09T12:22:54.729264-Database connection failed
-2024-05-09T12:22:55.789402-Database connection failed
-2024-05-09T12:30:31.897205-Database connection failed
-2024-05-09T12:30:32.201419-Database connection failed
-2024-05-09T12:30:32.612385-Database connection failed
-2024-05-09T12:30:33.239114-Database connection failed
-2024-05-09T12:31:53.233908-Database connection failed
-2024-05-09T12:32:10.363896-Database connection failed
-2024-05-09T12:32:10.514994-Database connection failed
-2024-05-09T12:32:15.116374-Database connection failed
-2024-05-09T12:32:17.127309-Database connection failed
-2024-05-09T12:37:31.181186-Database connection failed
-2024-05-09T12:42:27.732177-Database connection failed
-2024-05-09T12:42:27.890914-Database connection failed
-2024-05-09T12:42:28.661578-Database connection failed
-2024-05-09T15:27:28.896977-error: you need to choose a number between 1 to 3;2024-05-09 15:27:28.896934
-2024-05-09T15:30:21.856235-error: you need to choose a number between 1 to 3;2024-05-09 15:30:21.856195
-2024-05-09T15:30:25.055484-error: you need to choose a number between 1 to 3;2024-05-09 15:30:25.055467
+2024-05-09T17:04:07.500560-you need to choose a number between 1 to 3
+2024-05-09T17:04:19.735208-you need to choose a number between 1 to 3
+2024-05-09T17:04:21.362418-you need to choose a number between 1 to 3

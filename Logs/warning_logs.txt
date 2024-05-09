@@ -1,27 +1,5 @@
-2024-05-09T11:51:11.755767-Invalid move attempted
-2024-05-09T11:51:59.765947-Invalid move attempted
-2024-05-09T11:57:58.271725-Invalid move attempted
-2024-05-09T11:57:59.094316-Invalid move attempted
-2024-05-09T12:18:46.259661-Invalid move attempted
-2024-05-09T12:21:20.258016-Invalid move attempted
-2024-05-09T12:21:29.734332-Invalid move attempted
-2024-05-09T12:21:30.627009-Invalid move attempted
-2024-05-09T12:22:54.729199-Invalid move attempted
-2024-05-09T12:22:55.789339-Invalid move attempted
-2024-05-09T12:30:31.897110-Invalid move attempted
-2024-05-09T12:30:32.201352-Invalid move attempted
-2024-05-09T12:30:32.612319-Invalid move attempted
-2024-05-09T12:30:33.239049-Invalid move attempted
-2024-05-09T12:31:53.233831-Invalid move attempted
-2024-05-09T12:32:10.363766-Invalid move attempted
-2024-05-09T12:32:10.514927-Invalid move attempted
-2024-05-09T12:32:15.116308-Invalid move attempted
-2024-05-09T12:32:17.127241-Invalid move attempted
-2024-05-09T12:37:31.181113-Invalid move attempted
-2024-05-09T12:42:27.732108-Invalid move attempted
-2024-05-09T12:42:27.890849-Invalid move attempted
-2024-05-09T12:42:28.661506-Invalid move attempted
-2024-05-09T15:25:37.255365-warning: you need at list 2 players to play and no more then 4;2024-05-09 15:25:37.255329
-2024-05-09T15:26:34.624967-warning: you need at list 2 players to play and no more then 4;2024-05-09 15:26:34.624932
-2024-05-09T15:26:38.148560-warning: you need at list 2 players to play and no more then 4;2024-05-09 15:26:38.148524
-2024-05-09T15:27:13.337219-warning: Exception Occured: You cant bet on higher amount then your cash Cash Left:1000;2024-05-09 15:27:13.337180
+2024-05-09T17:03:25.905458-you need at list 2 players to play and no more then 4
+2024-05-09T17:03:28.955169-you need at list 2 players to play and no more then 4
+2024-05-09T17:03:30.353077-you need at list 2 players to play and no more then 4
+2024-05-09T17:04:10.874211-Exception Occured: You cant bet on higher amount then your cash Cash Left:1000
+2024-05-09T17:04:13.521842-Exception Occured: You cant bet on higher amount then your cash Cash Left:1000

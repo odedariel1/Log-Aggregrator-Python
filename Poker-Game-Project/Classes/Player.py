@@ -27,13 +27,13 @@ class Player:
     def check(self):
         message = f"Player {self.userid},{self.name} Checked"
         status = 'info'
-        logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+        logger.send_log(message, status)
         print(message)
 
     def fold(self):
         message = f"Player {self.userid},{self.name} Folded"
         status = 'info'
-        logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+        logger.send_log(message, status)
         print(message)
 
     def call(self, amount):
@@ -41,9 +41,9 @@ class Player:
             amount, self.cash = self.cash, 0
         else:
             self.cash -= amount
-        message = f"{self}\n Called :{amount}"
+        message = f"Player {self.userid},{self.name} Called :{amount}"
         status = 'info'
-        logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+        logger.send_log(message, status)
         print(message)
         return amount
 
@@ -60,9 +60,9 @@ class Player:
                     return self.call(oldbet)
                 elif self.cash >= input_amount:
                     self.cash -= input_amount
-                    message = f'{self}\n Bet :{input_amount}'
+                    message = f'Player {self.userid},{self.name},{self.cash} Bet :{input_amount}'
                     status = 'info'
-                    logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                    logger.send_log(message, status)
                     print(message)
                     success = True
                     return input_amount
@@ -71,12 +71,12 @@ class Player:
             except customException as e:
                 message = f"Exception Occured: {e} Cash Left:{self.cash}"
                 status = 'warning'
-                logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                logger.send_log(message, status)
                 print(message)
             except ValueError:
                 message = "Cant insert string or empty string please try again with numbers"
                 status = 'error'
-                logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                logger.send_log(message, status)
                 print(message)
 
     def collect_cash(self, amount):

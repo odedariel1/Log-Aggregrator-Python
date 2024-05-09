@@ -6,6 +6,7 @@ app = Flask(__name__)
 def dashboard():
     log_counts = {}
     log_messages = {}
+    log_dates = {}
     for status in ['info', 'warning', 'error']:
         log_file = f"Logs/{status}_logs.txt"
         try:

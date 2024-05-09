@@ -26,14 +26,14 @@ class Board:
                 if 2 > players_amount or 4 < players_amount:
                     message = "you need at list 2 players to play and no more then 4"
                     status = 'warning'
-                    logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                    logger.send_log(message, status)
                     print(message)
                 else:
                     success = True
             except ValueError:
                 message = "Cant insert string or empty string please try again with numbers"
                 status = 'error'
-                logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                logger.send_log(message, status)
                 print(message)
 
         count = 1
@@ -60,14 +60,14 @@ class Board:
                         if 3 < action or action <= 0:
                             message = "you need to choose a number between 1 to 3"
                             status = 'error'
-                            logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                            logger.send_log(message, status)
                             print(message)
                         else:
                             success = True
                     except ValueError:
                         message = "Cant insert string or empty string please try again with numbers"
                         status = 'error'
-                        logger.send_log(f"{status}: {message};{datetime.datetime.now()}", status)
+                        logger.send_log(message, status)
                         print(message)
 
                 if action == 1 and self.new_bet == 0:
