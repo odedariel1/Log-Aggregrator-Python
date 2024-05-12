@@ -1,6 +1,6 @@
 # Log Aggregrator Project 
 ## How do I get set up? ###
-first Run poker-poker-project.main.py in your python compiler (i used Pycharm) \n
+first Run poker-poker-project.main.py in your python compiler (i used Pycharm) <br>
 then follow the steps in the console (so the producer wiil create some messages to the queues)
 then run the log_consumer.py (so the file will create in your project)
 then run main.py or consolemain.py (to your choise) to see the results!
