@@ -5,10 +5,10 @@ then follow the steps in the console (so the producer wiil create some messages 
 then run the log_consumer.py (so the file will create in your project) <br>
 then run main.py or consolemain.py (to your choise) to see the results!
 
-## used technology: ###
+## Used Technology: ###
 Python, RabbitMQ, Flask
 
-### Instructions
+## Instructions
 
 * Description: Create a log aggregator that collects log messages from multiple sources, processes them, and stores them in files using RabbitMQ as the messaging queue system. This project will help you understand file handling, RabbitMQ integration, and distributed systems communication.
 
