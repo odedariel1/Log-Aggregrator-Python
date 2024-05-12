@@ -1,13 +1,16 @@
+# Read data from the file
 def read_data(file_name):
     with open(file_name) as f:
         yield from f
 
 
+# Count Lines in file
 def count_lines(file_name):
     with open(file_name) as f:
         return len(f.readlines())
 
 
+# Read all files and print it to the user
 def file_reader():
     log_counts = {}
     log_data = {}

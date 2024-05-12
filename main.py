@@ -3,16 +3,19 @@ from datetime import datetime
 app = Flask(__name__)
 
 
+# Read data from the file
 def read_data(file_name):
     with open(file_name) as f:
         yield from f
 
 
+# Count Lines in file
 def count_lines(file_name):
     with open(file_name) as f:
         return len(f.readlines())
 
 
+# Read all files and send it to the html
 def file_reader(log_counts, log_data):
     for status in ['info', 'warning', 'error']:
         log_counts[status] = 0
@@ -34,7 +37,7 @@ def file_reader(log_counts, log_data):
             app.logger.error(f"Failed to read {log_file}: {e}")
             abort(500, description=f"Error reading log file: {status}")
 
-
+# render data to template
 @app.route('/')
 def dashboard():
     log_counts = {}

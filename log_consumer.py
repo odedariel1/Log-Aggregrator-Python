@@ -1,7 +1,7 @@
 import pika
 import json
 
-
+# On call load the message to file
 def on_message_received(ch, method, properties, body):
     log = json.loads(body)
     log_file = f"Logs/{log['status']}_logs.txt"
@@ -9,7 +9,7 @@ def on_message_received(ch, method, properties, body):
         file.write(f"{log['timestamp']};{log['message']}\n")
         print(f"Processed log {log['status']}:{log['message']}")
 
-
+# Start consuming the rabbitMQ
 def start_consuming():
     connection = None
     try:
