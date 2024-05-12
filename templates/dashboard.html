@@ -15,12 +15,13 @@
         <th>Messages</th>
         <th>Date</th>
       </tr>
+        {% for data in log_data[item] %}
       <tr>
-        <td>Log info</td>
-        <td width="700px">i love shnitzels with katchup</td>
-        <td>2.10.2019 10:00:00</td>
+        <td width="150px">Log {{ item }} </td>
+        <td width="700px">{{ data[1] }}</td>
+        <td width="250px">{{ data[0] }}</td>
       </tr>
-
+        {% endfor %}
     </table>
 {% endfor %}
 </body>

@@ -1,5 +1,0 @@
-2024-05-09T17:03:25.905458-you need at list 2 players to play and no more then 4
-2024-05-09T17:03:28.955169-you need at list 2 players to play and no more then 4
-2024-05-09T17:03:30.353077-you need at list 2 players to play and no more then 4
-2024-05-09T17:04:10.874211-Exception Occured: You cant bet on higher amount then your cash Cash Left:1000
-2024-05-09T17:04:13.521842-Exception Occured: You cant bet on higher amount then your cash Cash Left:1000

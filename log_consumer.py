@@ -6,7 +6,7 @@ def on_message_received(ch, method, properties, body):
     log = json.loads(body)
     log_file = f"Logs/{log['status']}_logs.txt"
     with open(log_file,'a') as file:
-        file.write(f"{log['timestamp']}-{log['message']}\n")
+        file.write(f"{log['timestamp']};{log['message']}\n")
         print(f"Processed log {log['status']}:{log['message']}")
 
 
